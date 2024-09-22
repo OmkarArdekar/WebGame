@@ -16,8 +16,9 @@ _4. At each level the one color is flash. Remember the Sequence of the color_
 <br>
 _5. If you are at nth level and some color is flash, then to move to next level click/press the all colors flashed from 1st level to nth level_
 <br>
+<br>
 
-**_Example_**
+**_Example :_**
 <br>
 <br>
 **_Four color are there -> Red, Green, Yellow, Purple_**
