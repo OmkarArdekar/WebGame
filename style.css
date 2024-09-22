@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-weight: bolder;
+  font-family: "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+h3 {
+  color: black;
+  text-shadow: 0 0 1rem yellow;
+  text-decoration: underline;
+}
+
+.btn {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 20%;
+  border: 0.625rem solid black;
+  margin: 1.3rem;
+  box-shadow: 0 0 1rem rgb(255, 255, 255, 0.5);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  background-color: black;
+  padding: 2.5rem;
+  box-shadow: 0 0 1.5rem yellow;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 50%;
+}
+
+.red {
+  background-color: red;
+  border-top-left-radius: 50%;
+}
+
+.purple {
+  background-color: purple;
+  border-bottom-right-radius: 50%;
+}
+
+.green {
+  background-color: green;
+  border-top-right-radius: 50%;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: white;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.circle {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 8.5rem;
+  width: 8.5rem;
+  border: 0.625rem solid black;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 5rem;
+}
+
+#text {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 20%;
+    border: 0.55rem solid black;
+    margin: 1rem;
+  }
+
+  .yellow {
+    border-bottom-left-radius: 45%;
+  }
+
+  .red {
+    border-top-left-radius: 45%;
+  }
+
+  .purple {
+    border-bottom-right-radius: 45%;
+  }
+
+  .green {
+    border-top-right-radius: 45%;
+  }
+
+  .btn-container {
+    border-radius: 15%;
+    padding: 1.5rem;
+  }
+
+  .circle {
+    height: 6.5rem;
+    width: 6.5rem;
+    border: 0.55rem solid black;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 15%;
+    border: 0.5rem solid black;
+    margin: 1rem;
+  }
+
+  .yellow {
+    border-bottom-left-radius: 30%;
+  }
+
+  .red {
+    border-top-left-radius: 30%;
+  }
+
+  .purple {
+    border-bottom-right-radius: 30%;
+  }
+
+  .green {
+    border-top-right-radius: 30%;
+  }
+
+  .btn-container {
+    border-radius: 15%;
+    padding: 1.5rem;
+  }
+
+  .circle {
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 0.55rem solid black;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .btn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10%;
+    border: 0.5rem solid black;
+    margin: 0.5rem;
+  }
+
+  .yellow {
+    border-bottom-left-radius: 25%;
+  }
+
+  .red {
+    border-top-left-radius: 25%;
+  }
+
+  .purple {
+    border-bottom-right-radius: 25%;
+  }
+
+  .green {
+    border-top-right-radius: 25%;
+  }
+
+  .btn-container {
+    border-radius: 10%;
+    padding: 1rem;
+  }
+
+  .circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 0.3rem solid black;
+    font-size: 2.5rem;
+  }
+}
